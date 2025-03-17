@@ -1,0 +1,61 @@
+# Node.js
+/node_modules/
+/build/
+/dist/
+/*.log
+*.log
+
+# React
+/.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# FastAPI
+/instance/
+/.venv/
+/env/
+venv/
+/*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# IDEs and Editors
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+
+# Python Wheels
+*.whl
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.hypothesis/
