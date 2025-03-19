@@ -26,6 +26,8 @@ venv/
 /*.pyc
 *.pyo
 *.pyd
+Backend/.venv2
+
 
 # VS Code
 .vscode/
