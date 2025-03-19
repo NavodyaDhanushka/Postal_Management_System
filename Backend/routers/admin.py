@@ -2,8 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
 from Backend.core.database import get_db
-from Backend.models.models import Admin
-from Backend.schemas.admin_reg_login import AdminCreate, TokenResponse, AdminLogin
+from Backend.models.admin import Admin
+from Backend.schemas.admin import AdminCreate, TokenResponse, AdminLogin
+
 from Backend.utils.auth import hash_password, create_access_token, verify_password
 
 router = APIRouter(prefix="/admin", tags=["Admin"])
